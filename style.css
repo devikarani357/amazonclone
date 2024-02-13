@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color: black;
+    width:100%;
+    height:60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-logo img{
+    width:113px;
+    height:50px;
+    margin:1px;
+    padding:1px 8px 0px 6px;
+    color:#007185;
+    background-size: cover;
+}
+img{
+    border:1px solid transparent;
+}
+/** box2 **/
+.nav-address{
+    width:89px;
+    height:50px;
+    color:#d6d6d6;
+    margin: 5px 2px 5px 0px;
+    padding: 0px 9px;
+}
+.nav-address p{
+    width:53px;
+    height:14px;
+    font-size: 12px;
+    color:#cccccc;
+    margin-left: 15px;
+}
+.nav-icon{
+    display: flex;
+}
+.nav-icon p{
+    width:53px;
+    height:16px;
+    font-size: 14px;
+    color:#ffffff;
+    margin-left: 3px;
+}
+.nav-icon i{
+    width: 15px;
+    height: 18px;
+    margin-left: 8px;
+}
+.border{
+    border:1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+/** box3 **/
+.navsearch{
+    display: flex;
+    border: none;
+}
+.navsearch select option{
+    width: 201px;
+    height: 39px;
+    font-size: 14px;
+    background-color: #ffffff;
+    border: none;
+}
+.navsearch input{
+    width: 381.5px;
+    height:38px;
+    padding: 7px 10px 10px 10px;
+    border:none;
+}
+.search-icon i{
+    width: 41px;
+    height: 36.5px;
+    color: #ffffff;
+    font-size: 32px;
+    background-color: rgba(243, 134, 10, 0.959);
+}
+/** box4 **/
+.nav-country{
+    width:73.38px;
+    height:50px;
+    color:#d6d6d6;
+    font-size: 14px;
+    margin:0px 0px 0px 1px;
+    padding: 0px 9px 5px;
+    display: flex;
+    align-items: center;
+}
+.country-logo i{
+    width:21.6px;
+    height:16.2;
+    margin: 0px 2px 1px 0px;
+}
+.country-name select option{
+    width:18.38px;
+    height:15px;
+    color:#ffffff;
+    font-size: 14px;
+}
+/** box5 **/
+.nav-list{
+    width:131.53px;
+    height:50px;
+    color:#d6d6d6;
+    font-size: 14px;
+    margin: 0px 0px 0px 2px;
+    padding: 0px 9px 10px;
+
+}
+.nav-first p{
+    width:113.53px;
+    height:14px;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 0px 1px;
+}
+.nav-second select option{
+    width:113.53px;
+    height:15px;
+    color: #ffffff;
+    font-size: 14px;
+}
+/** box6 **/
+.nav-order{
+    width:76.95px;
+    height:50px;
+    color:#d6d6d6;
+    margin: 0px 0px 0px 2px;
+    padding: 0px 9px 10px;
+}
+.nav-line1 p{
+    width:58.95px;
+    height:14px;
+    color: #ffffff;
+    font-size: 12px;
+    margin: 9px 0px 0px;
+}
+.nav-line2 p{
+    width:58.95px;
+    height:15px;
+    color: #ffffff;
+    font-size: 14px;
+}
+/** box7 **/
+.nav-cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+.nav-cart i{
+    font-size: 32px;
+}
+
+/** panel styling **/
+.panel{
+    width:100%;
+    height:40px;
+    display: flex;
+    align-items: center;
+    background-color: #232f3e;
+}
+.panel-menu{
+    display: flex;
+}
+.panel-menu i{
+    width:17px;
+    height:14px;
+    color: #ffffff;
+    margin-left: 5px;
+}
+.panel-menu p{
+    width:24px;
+    height:12px;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 0px 0px 0px 5px;
+}
+.panel-search{
+    width:1010.58px;
+    height:40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:#ffffff;
+    cursor: pointer;
+}
+.panel-search p{
+    font-size: 14px;
+}
+/** hero-sec **/
+.hero-sec{
+    background-image: url("hero_image.jpg");
+    height: 350px;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+.hero-msg{
+    background-color: #ffffff;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width:80%;
+    margin-bottom: 40px;
+}
+.hero-msg a{
+    color: #007185;
+}
+
+/** shop-sec **/
+.shop-sec{
+    background-color: #e2e7e6;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box{
+    background-color: #ffffff;
+    height: 410px;
+    width:23%;
+    margin-top: 18px;
+}
+.box-img img{
+    height:350px;
+    background-size: cover;
+    width:285px;
+    margin-top: 1px;
+    padding: 11px;
+}
+.box-head h2{
+    margin-top: 3px;
+    margin-left: 1.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box p{
+    align-items: flex-end;
+    padding: 1px;
+    margin-bottom: 18px;
+    color: #007185;
+    cursor: pointer;
+    margin-left: 8px;
+}
+/** footer styling **/
+footer{
+    margin-top: 2rem;
+}
+.foot1{
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#ffffff;
+    height: 49px;
+    padding: 15px 0px;
+    font-size: 14px;
+}
+.foot2{
+    background-color: #232f3e;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom:0.5px solid rgba(255, 255, 255, 0.616);
+}
+.foot2 ul{
+    margin-top: 2rem;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.foot2 ul p{
+    font-size: 16px;
+    margin: 6px 0px 14px;
+    font-weight: 700;
+}
+.foot2 ul a{
+    border-bottom: none;
+}
+.foot2 ul a:hover{
+    border-bottom: 1px solid white;
+}
+.foot3{
+    background-color: #232f3e;
+    height:98px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.foot3-logo img{
+    margin-top: 2rem;
+    width:96px;
+    height:63px;
+}
+.foot3-eng{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    margin-top: 3.5rem;
+    padding: 1rem;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.foot3-eng i{
+    margin: 0.5rem;
+}
+.foot4{
+    background-color: #232f3e;
+    height: 77px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.925);
+}
+.footer1{
+    margin-top: 2.5rem;
+}
